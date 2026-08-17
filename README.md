@@ -11,7 +11,7 @@ Catalogue multi-domaines, pricing par paliers, flux de commandes, dashboard admi
 pages profil vigneron, auth par rôles, import CSV catalogue par domaine.
 → React / TypeScript / Tailwind · Supabase (PostgreSQL, RLS, Storage, Edge Functions)
 
-**Automatisations & data** — Notion (11 bases relationnelles) · Make.com · Brevo (emails transactionnels + newsletters HTML)
+**Automatisations & data** — Notion (11 bases relationnelles) · n8n · Brevo (emails transactionnels + newsletters HTML)
 
 ### Stack
 `TypeScript` `React` `Tailwind` `PostgreSQL` `Supabase` `SQL` `n8n` `Notion API`
