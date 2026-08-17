@@ -14,6 +14,6 @@ pages profil vigneron, auth par rôles, import CSV catalogue par domaine.
 **Automatisations & data** — Notion (11 bases relationnelles) · Make.com · Brevo (emails transactionnels + newsletters HTML)
 
 ### Stack
-`TypeScript` `React` `Tailwind` `PostgreSQL` `Supabase` `SQL` `Make.com` `Notion API`
+`TypeScript` `React` `Tailwind` `PostgreSQL` `Supabase` `SQL` `n8n` `Notion API`
 
 📍 Paris · [LinkedIn](https://linkedin.com/in/tonyschietroma)
