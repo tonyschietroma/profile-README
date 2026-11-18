@@ -6,23 +6,27 @@
 Sales & Business Development chez **D'Or et de Vins**, agence de distribution B2B
 de vins indépendants : ~25 domaines, ~85 clients (restaurants, cavistes, business clubs).
 
-En parallèle de la vente, je conçois et développe les outils internes de l'agence.
+En parallèle de la vente, je conçois et développe **le logiciel tout-en-un de l'agence** :
+un seul outil pour gérer les domaines, le catalogue, les clients, les commandes et le pilotage.
 
-## 🍷 Plateforme de commande B2B
+## 🍷 Le logiciel de l'agence
 
 [`l-agence-dor-vin-pro`](https://github.com/MichelLannou/l-agence-dor-vin-pro) · React, TypeScript, Tailwind, Supabase
 
-- **Catalogue multi-domaines** avec import CSV par domaine
-- **Pricing par paliers** selon le volume commandé
-- **Flux de commandes** de la saisie client jusqu'au suivi admin
-- **Dashboard admin** et **pages profil vigneron**
-- **Auth par rôles** sécurisée par Row Level Security (PostgreSQL)
-- Backend Supabase : Storage, Edge Functions
+| Module | Ce qu'il couvre |
+|---|---|
+| **Domaines** | Pages profil vigneron, import CSV du catalogue par domaine |
+| **Catalogue & prix** | Catalogue multi-domaines, pricing par paliers |
+| **Commandes** | Prise de commande client, suivi et traitement côté agence |
+| **Pilotage** | Dashboard admin |
+| **Accès** | Espaces séparés par rôle, sécurisés par Row Level Security (PostgreSQL) |
+
+Backend Supabase : PostgreSQL, Storage, Edge Functions.
 
 ## ⚙️ Automatisations & data
 
-- **Notion** : CRM et opérations sur 11 bases relationnelles
-- **n8n** : workflows entre Notion, la plateforme et les emails
+- **Notion** : 11 bases relationnelles
+- **n8n** : workflows d'automatisation
 - **Brevo** : emails transactionnels et newsletters HTML
 
 ## Stack
