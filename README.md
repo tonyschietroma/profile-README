@@ -1,5 +1,3 @@
-Je construis le logiciel qui fait tourner une agence de vins.
+I sell wine to restaurants in Paris, and I build the software our agency runs on.
 
-- **D'Or et de Vins** · ERP tout-en-un : CRM, commandes, facturation, IA. En production.
-- **mcp-mail** · serveur mail pour Claude, en lecture seule. Il rédige, il n'envoie jamais.
-- **Pivelis** · packs d'automatisation pour les petites entreprises.
+Lately I've been teaching Claude to read my inbox without ever hitting send.
