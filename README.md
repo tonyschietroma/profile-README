@@ -3,20 +3,30 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-tonyschietroma-0A66C2?style=flat)](https://linkedin.com/in/tonyschietroma)
 ![Paris](https://img.shields.io/badge/📍-Paris-555?style=flat)
 
-Sales & Business Development chez **D'Or et de Vins** — distribution B2B de vins
-indépendants (~25 domaines, ~85 clients : restaurants, cavistes, business clubs).
+Sales & Business Development chez **D'Or et de Vins**, agence de distribution B2B
+de vins indépendants : ~25 domaines, ~85 clients (restaurants, cavistes, business clubs).
 
-Je développe les outils internes de l'agence.
+En parallèle de la vente, je conçois et développe les outils internes de l'agence.
 
-### En cours
-**Plateforme de commande B2B** — [`l-agence-dor-vin-pro`](https://github.com/MichelLannou/l-agence-dor-vin-pro)
-Catalogue multi-domaines, pricing par paliers, flux de commandes, dashboard admin,
-pages profil vigneron, auth par rôles, import CSV catalogue par domaine.
-→ React / TypeScript / Tailwind · Supabase (PostgreSQL, RLS, Storage, Edge Functions)
+## 🍷 Plateforme de commande B2B
 
-**Automatisations & data** — Notion (11 bases relationnelles) · n8n · Brevo (emails transactionnels + newsletters HTML)
+[`l-agence-dor-vin-pro`](https://github.com/MichelLannou/l-agence-dor-vin-pro) · React, TypeScript, Tailwind, Supabase
 
-### Stack
+- **Catalogue multi-domaines** avec import CSV par domaine
+- **Pricing par paliers** selon le volume commandé
+- **Flux de commandes** de la saisie client jusqu'au suivi admin
+- **Dashboard admin** et **pages profil vigneron**
+- **Auth par rôles** sécurisée par Row Level Security (PostgreSQL)
+- Backend Supabase : Storage, Edge Functions
+
+## ⚙️ Automatisations & data
+
+- **Notion** : CRM et opérations sur 11 bases relationnelles
+- **n8n** : workflows entre Notion, la plateforme et les emails
+- **Brevo** : emails transactionnels et newsletters HTML
+
+## Stack
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
