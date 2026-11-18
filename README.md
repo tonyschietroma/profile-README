@@ -25,6 +25,7 @@ de la fiche domaine jusqu'à la relance de paiement. Il a remplacé Notion et le
 - **Automatisations** : n8n (chaîne des factures), 10 tâches pg_cron, sauvegardes via GitHub Actions
 
 `89 tables` · `45 Edge Functions` · `RLS sur 100 % des tables` · `388 PR fusionnées`
+
 → React, TypeScript, Vite, Tailwind · Supabase (PostgreSQL, Deno) · Vercel
 
 ### 📬 mcp-mail
