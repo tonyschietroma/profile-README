@@ -53,8 +53,8 @@ reliés aux outils du client (Gmail, Google Sheets, Drive, Agenda).
 
 → n8n, Node.js, Claude API, Docker, Caddy, Google Workspace APIs
 
-### 🔎 [job-radar-n8n](https://github.com/tonyschietroma/job-radar-n8n)
-*Public*
+### 🔎 job-radar-n8n
+*Privé*
 
 Workflow n8n de veille d'offres d'emploi : interroge l'API Greenhouse d'une liste d'entreprises,
 déduplique les offres et les pousse dans une base Notion pour tri manuel.
